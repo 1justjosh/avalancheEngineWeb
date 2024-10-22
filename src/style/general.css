@@ -1,0 +1,103 @@
+body{
+    background-image: url("../../res/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+    background-color: #11111122;
+}
+
+.icon{
+    width: 15%;
+    margin: 10px;
+    display:flex;
+    border-style: ridge;
+    border-radius: 10px;
+}
+
+.title{
+    color: #222222;
+    display: flex;
+    justify-content:center;
+    margin: 20px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 70px;
+}
+
+.header{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+    background-color: #11111111;
+    font-weight: bold;
+    font-size: 2em;
+    border-radius: 50px;
+}
+
+.header li{
+    display: inline;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+}
+
+.header li:hover{
+    background-color: #11111122;
+    border-radius: 10px;
+}
+
+.header .selected{
+    background-color: #22222244;
+    border-radius: 10px;
+}
+
+.footer{
+    margin-bottom: 10px;
+    margin: 10px;
+    padding: 50px;
+    background-color: #CCCCCC55;
+    border-radius: 50px;
+    height: 200px;
+}
+
+.info {
+    display: block; /* Use block layout for the main container */
+    margin: 20px; /* Margin around the info section */
+}
+
+.left, .right {
+    background-color: #CCCCCC55; /* Background color for both sections */
+    padding: 10px; /* Padding around the content */
+    margin-bottom: 20px; /* Margin below each section */
+    display: flex; /* Flexbox layout for each section */
+    align-items: center; /* Center items vertically */
+}
+
+.right-content {
+    display: flex; /* Use flexbox for the right content */
+    align-items: center; /* Center items vertically */
+}
+
+.left-img, .right-img {
+    width: 200px; /* Set image width */
+    margin-right: 20px; /* Space between image and text */
+}
+
+.left-txt, .right-txt {
+    font-size: 20px; /* Text size */
+    font-weight: bold; /* Text weight */
+}
+
+/* Specific margin for the right image */
+.right-img {
+    margin-left: 20px; /* Add space between text and image */
+}
