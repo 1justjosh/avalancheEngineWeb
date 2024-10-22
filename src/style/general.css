@@ -61,43 +61,69 @@ body{
 }
 
 .footer{
-    margin-bottom: 10px;
-    margin: 10px;
-    padding: 50px;
-    background-color: #CCCCCC55;
+    text-align: center;
+    background-color: #CCCCCCAA;
+    font-weight: bold;
+
+    font-size: 2em;
     border-radius: 50px;
-    height: 200px;
+    height: 400px;
+}
+
+.footer-link{
+    justify-items: left;
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    color: #111111;
+    padding: 5px;
+}
+
+.footer-link:hover{
+    background-color: #22222865;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 1);
 }
 
 .info {
-    display: block; /* Use block layout for the main container */
-    margin: 20px; /* Margin around the info section */
+    display: block; 
+    margin: 20px; 
 }
 
-.left, .right {
-    background-color: #CCCCCC55; /* Background color for both sections */
-    padding: 10px; /* Padding around the content */
-    margin-bottom: 20px; /* Margin below each section */
-    display: flex; /* Flexbox layout for each section */
-    align-items: center; /* Center items vertically */
+.right{
+    background-color: #CCCCCCAA; 
+    padding: 10px; 
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+    border-radius: 20px;
+}
+
+.left{
+    background-color: #CCCCCC11; 
+    padding: 10px; 
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center; 
+    border-radius: 20px;
 }
 
 .right-content {
-    display: flex; /* Use flexbox for the right content */
-    align-items: center; /* Center items vertically */
+    display: flex; 
+    align-items: center; 
 }
 
 .left-img, .right-img {
-    width: 200px; /* Set image width */
-    margin-right: 20px; /* Space between image and text */
+    width: 200px; 
+    margin-right: 20px; 
 }
 
 .left-txt, .right-txt {
-    font-size: 20px; /* Text size */
-    font-weight: bold; /* Text weight */
+    font-size: 20px;
+    font-weight: bold; 
 }
 
-/* Specific margin for the right image */
 .right-img {
-    margin-left: 20px; /* Add space between text and image */
+    margin-left: 20px; 
 }
